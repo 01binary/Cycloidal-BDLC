@@ -4,7 +4,9 @@ A Quasi Direct Drive (QDD) robotics servo-motor with 8:1 cycloidal drive.
 
 > Forked from [Internal-Cycloidal-Actuator](https://github.com/aaedmusa/Internal-Cycloidal-Actuator) by Aaed Musa.
 
-![1](https://github.com/aaedmusa/Internal-Cycloidal-Actuator/assets/84678990/09dbe647-8f0d-49c1-9e2b-31c7999ce9f2)
+|||
+|-|-|
+|![top](./top.PNG)|![bottom](./bottom.PNG)
 
 The BDLC motor is built on [10010 stator](https://www.aliexpress.us/item/3256805244129270.html) made from laminated steel sheets which increases the flux while preventing [eddy current loss](https://en.wikipedia.org/wiki/Eddy_current).
 
