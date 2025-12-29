@@ -6,7 +6,7 @@ A Quasi Direct Drive (QDD) robotics servo-motor with 8:1 cycloidal drive.
 
 |||
 |-|-|
-|![top](./top.PNG)|![bottom](./bottom.PNG)
+|![top](./images/top.PNG)|![bottom](./images/bottom.PNG)
 
 The BDLC motor is built on [10010 stator](https://www.aliexpress.us/item/3256805244129270.html) made from laminated steel sheets which increases the flux while preventing [eddy current loss](https://en.wikipedia.org/wiki/Eddy_current).
 
@@ -34,28 +34,34 @@ The actuator uses an [ODrive S1](https://odriverobotics.com/shop/odrive-s1) FOC 
 
 ## Bill of Materials
 
-|Component|Qty|
-|-|-|
-|[ODrive S1 (w/Screw Terminals)](https://odriverobotics.com/shop/odrive-s1)|1
-|[10010 Stator](https://www.aliexpress.us/item/3256805244129270.html)|1
-|[26 AWG Magnet Wire](https://www.amazon.com/dp/B0978CM2NP)|1
-|[10x5x3mm N52 Magnets](https://jc-magnetics.com/Magnet-N50-10mm-5mm-3mm-Block)|42
-|[⌀8 x 2.5mm Encoder Magnet](https://www.andymark.com/products/redline-encoder-magnet)|1
-|[3x10x4mm Bearings](https://www.amazon.com/dp/B07FW389P1?psc=1&ref=ppx_yo2ov_dt_b_product_details)|12
-|[12x21x5mm Bearings](https://www.amazon.com/dp/B07FVYHWFC?psc=1&ref=ppx_yo2ov_dt_b_product_details)|4
-|[40x50x6mm Bearing](https://www.amazon.com/XIKE-6708-2RS-Bearings-40x50x6mm-Pre-Lubricated/dp/B09D2RCCBG)|1
-|[50x65x7mm Bearing](https://www.amazon.com/6810-2RS-Bearings-50x65x7mm-Pre-Lubricated-Bearing/dp/B09D2XDT95)|1
-|[M3 x 6mm Inserts](https://www.amazon.com/gp/product/B07LBQRYR3)|22
-|[M3 x 5mm Hex Standoffs](https://www.amazon.com/DTGN-M3x5mm-DXL-Standoff-Electronic/dp/B0BC8X9CPK)|18
-|[M3 Locknuts](https://www.amazon.com/100Pcs-Stainless-Self-Lock-Inserted-Clinching/dp/B075ZZW7VL)|17
-|[M3 x 8mm Screws](https://www.amazon.com/gp/product/B08GLLBCYV)|4
-|[M3 x 10mm Screws](https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CK3RSN3)|4
-|[M3 x 35mm Screws](https://www.amazon.com/DTGN-M3x40mm-Stainless-Machine-Threaded/dp/B0CFV5BLRP)|9
-|[M3 x 40mm Screws](https://www.amazon.com/DTGN-M3x40mm-Stainless-Machine-Threaded/dp/B0CFV44M5J)|6
-|[M3 x 50mm Screws](https://www.amazon.com/uxcell-M3x50mm-0-5mm-Socket-Screws/dp/B011BNTHPS)|2
-|[M4 Locknuts](https://www.amazon.com/gp/product/B08LMNFS5P)|14
-|[M4 x 14mm Screws](https://www.amazon.com/M4x12mm-M4-0-7x12mm-Stainless-Machine-Quantity/dp/B0CLGWZSLT)|14
-|Machined Rotor (Mild Steel 1045)|1
-|Machined Fixed Ring (Aluminum 6061)|1
-|Gearbox (Mild Steel 1045)|1
-|Housing (Aluminum 6061)|1
+|Image|Component|Qty|
+|-|-|-|
+|![ODrive S1](./images/ODrive-S1.png)|[ODrive S1 (w/Screw Terminals)](https://odriverobotics.com/shop/odrive-s1)|1
+|![Stator](./images/10010-Stator.png)|[10010 Stator](https://www.aliexpress.us/item/3256805244129270.html)|1
+||[26 AWG Magnet Wire](https://www.amazon.com/dp/B0978CM2NP)|1
+||[10x5x3mm N52 Magnets](https://jc-magnetics.com/Magnet-N50-10mm-5mm-3mm-Block)|42
+||[⌀8 x 2.5mm Encoder Magnet](https://www.andymark.com/products/redline-encoder-magnet)|1
+||[3x10x4mm Bearings](https://www.amazon.com/dp/B07FW389P1?psc=1&ref=ppx_yo2ov_dt_b_product_details)|12
+||[12x21x5mm Bearings](https://www.amazon.com/dp/B07FVYHWFC?psc=1&ref=ppx_yo2ov_dt_b_product_details)|4
+|![40x50x6 Bearing](./images/40x50x6mm-Bearing.png)|[40x50x6mm Bearing](https://www.amazon.com/XIKE-6708-2RS-Bearings-40x50x6mm-Pre-Lubricated/dp/B09D2RCCBG)|1
+|![50x65x7 Bearing](./images/50x65x7mm-Bearing.png)|[50x65x7mm Bearing](https://www.amazon.com/6810-2RS-Bearings-50x65x7mm-Pre-Lubricated-Bearing/dp/B09D2XDT95)|1
+||[M3 x 6mm Inserts](https://www.amazon.com/gp/product/B07LBQRYR3)|22
+||[M3 x 5mm Hex Standoffs](https://www.amazon.com/DTGN-M3x5mm-DXL-Standoff-Electronic/dp/B0BC8X9CPK)|18
+||[M3 Locknuts](https://www.amazon.com/100Pcs-Stainless-Self-Lock-Inserted-Clinching/dp/B075ZZW7VL)|17
+|![M3x8](./images/M3-8mm-Screw.png)|[M3 x 8mm Screws](https://www.amazon.com/gp/product/B08GLLBCYV)|4
+|![M3x10](./images/M3-10mm-Screw.png)|[M3 x 10mm Screws](https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CK3RSN3)|4
+||[M3 x 35mm Screws](https://www.amazon.com/DTGN-M3x40mm-Stainless-Machine-Threaded/dp/B0CFV5BLRP)|9
+||[M3 x 40mm Screws](https://www.amazon.com/DTGN-M3x40mm-Stainless-Machine-Threaded/dp/B0CFV44M5J)|6
+||[M3 x 50mm Screws](https://www.amazon.com/uxcell-M3x50mm-0-5mm-Socket-Screws/dp/B011BNTHPS)|2
+||[M4 Locknuts](https://www.amazon.com/gp/product/B08LMNFS5P)|14
+||[M4 x 14mm Screws](https://www.amazon.com/M4x12mm-M4-0-7x12mm-Stainless-Machine-Quantity/dp/B0CLGWZSLT)|14
+|![Rotor](./images/Rotor.png)|Machined Rotor (Mild Steel 1045)|1
+|![Fixed Ring](./images/Fixed-Ring.png)|Machined Fixed Ring (Aluminum 6061)|1
+|![Cycloidal Disk 1](./images/Cycloidal-Disk-1.png)|Cycloidal Disk 1 (Mild Steel 1045)|1
+|![Cycloidal Disk 2](./images/Cycloidal-Disk-2.png)|Cycloidal Disk 2 (Mild Steel 1045)|1
+|![Top Housing](./images/TopHousing.png)|Top Housing (Aluminum 6061)|1
+|![Bottom Housing](./images/Bottom-Housing.png)|Bottom Housing (Aluminum 6061)|1
+|![Housing Spacer](./images/Housing-Spacer.png)|Housing Spacer|1
+|![Eccentric Shaft](./images/Eccentric-Shaft.png)|Eccentric Shaft|1
+|![Encoder Flange](./images/Encoder-Holder.png)|Encoder Flange|1
+|![Output Shaft](./images/Output-Shaft-Top-Bottom.png)|Output Shaft Top/Bottom|1
